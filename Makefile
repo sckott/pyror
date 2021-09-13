@@ -15,7 +15,9 @@ test:
 docs:
 	cd docs;\
 	make html
-	# open _build/html/index.html
+	
+opendocs:
+	open docs/_build/html/index.html
 
 distclean:
 	rm dist/*
