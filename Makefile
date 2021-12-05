@@ -9,8 +9,12 @@ install: build
 	python3 setup.py install
 
 test:
-	pytest test/
-# 	pytest --disable-vcr --cov-report term --cov=pyror test/
+# 	pytest test/
+	pytest --record-mode=once --cov-report term --cov=pyror test/
+# 	pytest --record-mode=once test/
+
+test_no_vcr:
+	pytest --disable-recording --cov-report term --cov=pyror test/
 
 docs:
 	cd docs;\

@@ -1,0 +1,462 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://api.ror.org/organizations?query=University+of+Greenwich
+  response:
+    body:
+      string: "{\"number_of_results\":24153,\"time_taken\":29,\"items\":[{\"id\":\"\
+        https://ror.org/00bmj0a71\",\"name\":\"University of Greenwich\",\"email_address\"\
+        :null,\"ip_addresses\":[],\"established\":1890,\"types\":[\"Education\"],\"\
+        relationships\":[{\"label\":\"Natural Resources Institute\",\"type\":\"Related\"\
+        ,\"id\":\"https://ror.org/05t3n1398\"}],\"addresses\":[{\"lat\":51.485111,\"\
+        lng\":-0.003905,\"state\":null,\"state_code\":null,\"city\":\"London\",\"\
+        geonames_city\":{\"id\":2643743,\"city\":\"London\",\"geonames_admin1\":{\"\
+        name\":\"England\",\"id\":6269131,\"ascii_name\":\"England\",\"code\":\"GB.ENG\"\
+        },\"geonames_admin2\":{\"name\":\"Greater London\",\"id\":2648110,\"ascii_name\"\
+        :\"Greater London\",\"code\":\"GB.ENG.GLA\"},\"license\":{\"attribution\"\
+        :\"Data from geonames.org under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":\"LONDON\",\"code\":\"UKI\"},\"nuts_level2\":{\"\
+        name\":\"Inner London - West\",\"code\":\"UKI3\"},\"nuts_level3\":{\"name\"\
+        :\"Westminster\",\"code\":\"UKI32\"}},\"postcode\":null,\"primary\":false,\"\
+        line\":null,\"country_geonames_id\":2635167}],\"links\":[\"http://www2.gre.ac.uk/\"\
+        ],\"aliases\":[],\"acronyms\":[],\"status\":\"active\",\"wikipedia_url\":\"\
+        http://en.wikipedia.org/wiki/University_of_Greenwich\",\"labels\":[],\"country\"\
+        :{\"country_name\":\"United Kingdom\",\"country_code\":\"GB\"},\"external_ids\"\
+        :{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0001 0806 5472\"]},\"FundRef\"\
+        :{\"preferred\":null,\"all\":[\"100010027\"]},\"HESA\":{\"preferred\":null,\"\
+        all\":[\"0059\"]},\"UKPRN\":{\"preferred\":null,\"all\":[\"10007146\"]},\"\
+        OrgRef\":{\"preferred\":\"533524\",\"all\":[\"533524\",\"24063894\"]},\"Wikidata\"\
+        :{\"preferred\":null,\"all\":[\"Q1896148\"]},\"GRID\":{\"preferred\":\"grid.36316.31\"\
+        ,\"all\":\"grid.36316.31\"}}},{\"id\":\"https://ror.org/03fbdat12\",\"name\"\
+        :\"Greenwich University\",\"email_address\":null,\"ip_addresses\":[],\"established\"\
+        :1987,\"types\":[\"Education\"],\"relationships\":[],\"addresses\":[{\"lat\"\
+        :24.787746,\"lng\":67.049488,\"state\":null,\"state_code\":null,\"city\":\"\
+        Karachi\",\"geonames_city\":{\"id\":1174872,\"city\":\"Karachi\",\"geonames_admin1\"\
+        :{\"name\":\"Sindh\",\"id\":1164807,\"ascii_name\":\"Sindh\",\"code\":\"PK.05\"\
+        },\"geonames_admin2\":{\"name\":\"Kar\u0101chi District\",\"id\":1174870,\"\
+        ascii_name\":\"Karachi District\",\"code\":\"PK.05.1174870\"},\"license\"\
+        :{\"attribution\":\"Data from geonames.org under a CC-BY 3.0 license\",\"\
+        license\":\"http://creativecommons.org/licenses/by/3.0/\"},\"nuts_level1\"\
+        :{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\":null,\"code\":null},\"\
+        nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\":null,\"primary\"\
+        :false,\"line\":null,\"country_geonames_id\":1168579}],\"links\":[\"http://www.greenwichuniversity.edu.pk/\"\
+        ],\"aliases\":[],\"acronyms\":[\"GU\"],\"status\":\"active\",\"wikipedia_url\"\
+        :\"https://en.wikipedia.org/wiki/Greenwich_University,_Karachi\",\"labels\"\
+        :[],\"country\":{\"country_name\":\"Pakistan\",\"country_code\":\"PK\"},\"\
+        external_ids\":{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0004 0608 2692\"\
+        ]},\"OrgRef\":{\"preferred\":null,\"all\":[\"36176193\"]},\"Wikidata\":{\"\
+        preferred\":null,\"all\":[\"Q5604896\"]},\"GRID\":{\"preferred\":\"grid.444837.8\"\
+        ,\"all\":\"grid.444837.8\"}}},{\"id\":\"https://ror.org/036qtaj98\",\"name\"\
+        :\"Greenwich Hospital\",\"email_address\":null,\"ip_addresses\":[],\"established\"\
+        :1903,\"types\":[\"Healthcare\"],\"relationships\":[{\"label\":\"Columbia\
+        \ University\",\"type\":\"Related\",\"id\":\"https://ror.org/00hj8s172\"},{\"\
+        label\":\"Fairfield University\",\"type\":\"Related\",\"id\":\"https://ror.org/04z49n283\"\
+        },{\"label\":\"New York Medical College\",\"type\":\"Related\",\"id\":\"https://ror.org/03dkvy735\"\
+        },{\"label\":\"Norwalk Community College\",\"type\":\"Related\",\"id\":\"\
+        https://ror.org/039pz2z06\"},{\"label\":\"Pace University\",\"type\":\"Related\"\
+        ,\"id\":\"https://ror.org/047p7y759\"},{\"label\":\"Yale University\",\"type\"\
+        :\"Related\",\"id\":\"https://ror.org/03v76x132\"},{\"label\":\"Yale New Haven\
+        \ Health System\",\"type\":\"Parent\",\"id\":\"https://ror.org/01s1hsq14\"\
+        }],\"addresses\":[{\"lat\":41.034376,\"lng\":-73.630274,\"state\":\"Connecticut\"\
+        ,\"state_code\":\"US-CT\",\"city\":\"Greenwich\",\"geonames_city\":{\"id\"\
+        :4835395,\"city\":\"Greenwich\",\"geonames_admin1\":{\"name\":\"Connecticut\"\
+        ,\"id\":4831725,\"ascii_name\":\"Connecticut\",\"code\":\"US.CT\"},\"geonames_admin2\"\
+        :{\"name\":\"Fairfield County\",\"id\":4834162,\"ascii_name\":\"Fairfield\
+        \ County\",\"code\":\"US.CT.001\"},\"license\":{\"attribution\":\"Data from\
+        \ geonames.org under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\"\
+        :null,\"code\":null},\"nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\"\
+        :null,\"primary\":false,\"line\":null,\"country_geonames_id\":6252001}],\"\
+        links\":[\"https://www.greenwichhospital.org/\"],\"aliases\":[],\"acronyms\"\
+        :[],\"status\":\"active\",\"wikipedia_url\":\"https://en.wikipedia.org/wiki/Greenwich_Hospital_(Connecticut)\"\
+        ,\"labels\":[],\"country\":{\"country_name\":\"United States\",\"country_code\"\
+        :\"US\"},\"external_ids\":{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0004\
+        \ 0406 823X\"]},\"OrgRef\":{\"preferred\":null,\"all\":[\"6841207\"]},\"Wikidata\"\
+        :{\"preferred\":null,\"all\":[\"Q12059097\"]},\"GRID\":{\"preferred\":\"grid.413321.6\"\
+        ,\"all\":\"grid.413321.6\"}}},{\"id\":\"https://ror.org/05qbj3p45\",\"name\"\
+        :\"Royal Museums Greenwich\",\"email_address\":null,\"ip_addresses\":[],\"\
+        established\":2012,\"types\":[\"Archive\"],\"relationships\":[{\"label\":\"\
+        National Maritime Museum\",\"type\":\"Child\",\"id\":\"https://ror.org/01f3njc68\"\
+        },{\"label\":\"Royal Observatory in Greenwich\",\"type\":\"Child\",\"id\"\
+        :\"https://ror.org/03ez0zf69\"}],\"addresses\":[{\"lat\":51.481015,\"lng\"\
+        :-0.005332,\"state\":null,\"state_code\":null,\"city\":\"London\",\"geonames_city\"\
+        :{\"id\":2643743,\"city\":\"London\",\"geonames_admin1\":{\"name\":\"England\"\
+        ,\"id\":6269131,\"ascii_name\":\"England\",\"code\":\"GB.ENG\"},\"geonames_admin2\"\
+        :{\"name\":\"Greater London\",\"id\":2648110,\"ascii_name\":\"Greater London\"\
+        ,\"code\":\"GB.ENG.GLA\"},\"license\":{\"attribution\":\"Data from geonames.org\
+        \ under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":\"LONDON\",\"code\":\"UKI\"},\"nuts_level2\":{\"\
+        name\":\"Inner London - West\",\"code\":\"UKI3\"},\"nuts_level3\":{\"name\"\
+        :\"Westminster\",\"code\":\"UKI32\"}},\"postcode\":null,\"primary\":false,\"\
+        line\":null,\"country_geonames_id\":2635167}],\"links\":[\"https://www.rmg.co.uk/\"\
+        ],\"aliases\":[],\"acronyms\":[],\"status\":\"active\",\"wikipedia_url\":\"\
+        https://en.wikipedia.org/wiki/Royal_Museums_Greenwich\",\"labels\":[],\"country\"\
+        :{\"country_name\":\"United Kingdom\",\"country_code\":\"GB\"},\"external_ids\"\
+        :{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0004 0549 306X\"]},\"Wikidata\"\
+        :{\"preferred\":null,\"all\":[\"Q7374509\"]},\"GRID\":{\"preferred\":\"grid.508140.8\"\
+        ,\"all\":\"grid.508140.8\"}}},{\"id\":\"https://ror.org/013kzw641\",\"name\"\
+        :\"Greenwich Public Schools\",\"email_address\":null,\"ip_addresses\":[],\"\
+        established\":1640,\"types\":[\"Education\"],\"relationships\":[],\"addresses\"\
+        :[{\"lat\":41.079746,\"lng\":-73.630981,\"state\":\"Connecticut\",\"state_code\"\
+        :\"US-CT\",\"city\":\"Greenwich\",\"geonames_city\":{\"id\":4835395,\"city\"\
+        :\"Greenwich\",\"geonames_admin1\":{\"name\":\"Connecticut\",\"id\":4831725,\"\
+        ascii_name\":\"Connecticut\",\"code\":\"US.CT\"},\"geonames_admin2\":{\"name\"\
+        :\"Fairfield County\",\"id\":4834162,\"ascii_name\":\"Fairfield County\",\"\
+        code\":\"US.CT.001\"},\"license\":{\"attribution\":\"Data from geonames.org\
+        \ under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\"\
+        :null,\"code\":null},\"nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\"\
+        :null,\"primary\":false,\"line\":null,\"country_geonames_id\":6252001}],\"\
+        links\":[\"https://www.greenwichschools.org/\"],\"aliases\":[],\"acronyms\"\
+        :[\"GPS\"],\"status\":\"active\",\"wikipedia_url\":\"https://en.wikipedia.org/wiki/Greenwich_Public_Schools\"\
+        ,\"labels\":[],\"country\":{\"country_name\":\"United States\",\"country_code\"\
+        :\"US\"},\"external_ids\":{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0004\
+        \ 0430 3658\"]},\"Wikidata\":{\"preferred\":null,\"all\":[\"Q5604871\"]},\"\
+        GRID\":{\"preferred\":\"grid.434776.5\",\"all\":\"grid.434776.5\"}}},{\"id\"\
+        :\"https://ror.org/03ez0zf69\",\"name\":\"Royal Observatory in Greenwich\"\
+        ,\"email_address\":null,\"ip_addresses\":[],\"established\":1675,\"types\"\
+        :[\"Facility\"],\"relationships\":[{\"label\":\"Royal Museums Greenwich\"\
+        ,\"type\":\"Parent\",\"id\":\"https://ror.org/05qbj3p45\"}],\"addresses\"\
+        :[{\"lat\":51.4778,\"lng\":-0.0014,\"state\":null,\"state_code\":null,\"city\"\
+        :\"London\",\"geonames_city\":{\"id\":2643743,\"city\":\"London\",\"geonames_admin1\"\
+        :{\"name\":\"England\",\"id\":6269131,\"ascii_name\":\"England\",\"code\"\
+        :\"GB.ENG\"},\"geonames_admin2\":{\"name\":\"Greater London\",\"id\":2648110,\"\
+        ascii_name\":\"Greater London\",\"code\":\"GB.ENG.GLA\"},\"license\":{\"attribution\"\
+        :\"Data from geonames.org under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":\"LONDON\",\"code\":\"UKI\"},\"nuts_level2\":{\"\
+        name\":\"Inner London - West\",\"code\":\"UKI3\"},\"nuts_level3\":{\"name\"\
+        :\"Westminster\",\"code\":\"UKI32\"}},\"postcode\":null,\"primary\":false,\"\
+        line\":null,\"country_geonames_id\":2635167}],\"links\":[\"https://www.rmg.co.uk/royal-observatory\"\
+        ],\"aliases\":[\"Old Royal Observatory\"],\"acronyms\":[\"ROG\"],\"status\"\
+        :\"active\",\"wikipedia_url\":\"https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich\"\
+        ,\"labels\":[],\"country\":{\"country_name\":\"United Kingdom\",\"country_code\"\
+        :\"GB\"},\"external_ids\":{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0001\
+        \ 0941 1381\"]},\"Wikidata\":{\"preferred\":null,\"all\":[\"Q192988\"]},\"\
+        GRID\":{\"preferred\":\"grid.508143.b\",\"all\":\"grid.508143.b\"}}},{\"id\"\
+        :\"https://ror.org/05tn2bq24\",\"name\":\"Lewisham and Greenwich NHS Trust\"\
+        ,\"email_address\":null,\"ip_addresses\":[],\"established\":2013,\"types\"\
+        :[\"Healthcare\"],\"relationships\":[{\"label\":\"Queen Elizabeth Hospital\"\
+        ,\"type\":\"Child\",\"id\":\"https://ror.org/00p6q5476\"},{\"label\":\"University\
+        \ Hospital Lewisham\",\"type\":\"Child\",\"id\":\"https://ror.org/04vgz8j88\"\
+        }],\"addresses\":[{\"lat\":51.45384,\"lng\":-0.018524,\"state\":\"England\"\
+        ,\"state_code\":\"GB-ENG\",\"city\":\"London\",\"geonames_city\":{\"id\":2643743,\"\
+        city\":\"London\",\"geonames_admin1\":{\"name\":\"England\",\"id\":6269131,\"\
+        ascii_name\":\"England\",\"code\":\"GB.ENG\"},\"geonames_admin2\":{\"name\"\
+        :\"Greater London\",\"id\":2648110,\"ascii_name\":\"Greater London\",\"code\"\
+        :\"GB.ENG.GLA\"},\"license\":{\"attribution\":\"Data from geonames.org under\
+        \ a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":\"LONDON\",\"code\":\"UKI\"},\"nuts_level2\":{\"\
+        name\":\"Inner London - West\",\"code\":\"UKI3\"},\"nuts_level3\":{\"name\"\
+        :\"Westminster\",\"code\":\"UKI32\"}},\"postcode\":null,\"primary\":false,\"\
+        line\":null,\"country_geonames_id\":2635167}],\"links\":[\"https://www.lewishamandgreenwich.nhs.uk/\"\
+        ],\"aliases\":[],\"acronyms\":[],\"status\":\"active\",\"wikipedia_url\":\"\
+        https://en.wikipedia.org/wiki/Lewisham_and_Greenwich_NHS_Trust\",\"labels\"\
+        :[],\"country\":{\"country_name\":\"United Kingdom\",\"country_code\":\"GB\"\
+        },\"external_ids\":{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0004 0426\
+        \ 8725\"]},\"Wikidata\":{\"preferred\":null,\"all\":[\"Q16996252\"]},\"GRID\"\
+        :{\"preferred\":\"grid.429537.e\",\"all\":\"grid.429537.e\"}}},{\"id\":\"\
+        https://ror.org/006zjws59\",\"name\":\"University of Vic\",\"email_address\"\
+        :null,\"ip_addresses\":[],\"established\":1599,\"types\":[\"Education\"],\"\
+        relationships\":[],\"addresses\":[{\"lat\":41.933777,\"lng\":2.247196,\"state\"\
+        :null,\"state_code\":null,\"city\":\"Vic\",\"geonames_city\":{\"id\":3106050,\"\
+        city\":\"Vic\",\"geonames_admin1\":{\"name\":\"Catalonia\",\"id\":3336901,\"\
+        ascii_name\":\"Catalonia\",\"code\":\"ES.56\"},\"geonames_admin2\":{\"name\"\
+        :\"Prov\xEDncia de Barcelona\",\"id\":3128759,\"ascii_name\":\"Provincia de\
+        \ Barcelona\",\"code\":\"ES.56.B\"},\"license\":{\"attribution\":\"Data from\
+        \ geonames.org under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":\"ESTE\",\"code\":\"ES5\"},\"nuts_level2\":{\"\
+        name\":\"Catalu\xF1a\",\"code\":\"ES51\"},\"nuts_level3\":{\"name\":\"Barcelona\"\
+        ,\"code\":\"ES511\"}},\"postcode\":null,\"primary\":false,\"line\":null,\"\
+        country_geonames_id\":2510769}],\"links\":[\"http://www.uvic-ucc.cat/en\"\
+        ],\"aliases\":[\"University of Vic - Central University of Catalonia\"],\"\
+        acronyms\":[\"UVic-UCC\"],\"status\":\"active\",\"wikipedia_url\":\"https://en.wikipedia.org/wiki/University_of_Vic_-_Central_University_of_Catalonia\"\
+        ,\"labels\":[{\"label\":\"Universitat de Vic - Universitat Central de Catalunya\"\
+        ,\"iso639\":\"es\"}],\"country\":{\"country_name\":\"Spain\",\"country_code\"\
+        :\"ES\"},\"external_ids\":{\"OrgRef\":{\"preferred\":null,\"all\":[\"41023197\"\
+        ]},\"Wikidata\":{\"preferred\":null,\"all\":[\"Q935460\"]},\"GRID\":{\"preferred\"\
+        :\"grid.440820.a\",\"all\":\"grid.440820.a\"}}},{\"id\":\"https://ror.org/018bbh535\"\
+        ,\"name\":\"University of Laghouat\",\"email_address\":null,\"ip_addresses\"\
+        :[],\"established\":1986,\"types\":[\"Education\"],\"relationships\":[],\"\
+        addresses\":[{\"lat\":33.797079,\"lng\":2.849525,\"state\":null,\"state_code\"\
+        :null,\"city\":\"Laghouat\",\"geonames_city\":{\"id\":2491191,\"city\":\"\
+        Laghouat\",\"geonames_admin1\":{\"name\":\"Laghouat\",\"id\":2491188,\"ascii_name\"\
+        :\"Laghouat\",\"code\":\"DZ.25\"},\"geonames_admin2\":{\"name\":null,\"id\"\
+        :null,\"ascii_name\":null,\"code\":null},\"license\":{\"attribution\":\"Data\
+        \ from geonames.org under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\"\
+        :null,\"code\":null},\"nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\"\
+        :null,\"primary\":false,\"line\":null,\"country_geonames_id\":2589581}],\"\
+        links\":[\"http://www.lagh-univ.dz/\"],\"aliases\":[],\"acronyms\":[],\"status\"\
+        :\"active\",\"wikipedia_url\":\"https://en.wikipedia.org/wiki/University_of_Laghouat\"\
+        ,\"labels\":[{\"label\":\"\u062C\u0627\u0645\u0639\u0629 \u0639\u0645\u0627\
+        \u0631 \u062B\u0644\u064A\u062C\u064A\",\"iso639\":\"ar\"}],\"country\":{\"\
+        country_name\":\"Algeria\",\"country_code\":\"DZ\"},\"external_ids\":{\"OrgRef\"\
+        :{\"preferred\":null,\"all\":[\"25475921\"]},\"Wikidata\":{\"preferred\":null,\"\
+        all\":[\"Q7895618\"]},\"GRID\":{\"preferred\":\"grid.440472.1\",\"all\":\"\
+        grid.440472.1\"}}},{\"id\":\"https://ror.org/052z7nw84\",\"name\":\"University\
+        \ of Education\",\"email_address\":null,\"ip_addresses\":[],\"established\"\
+        :2002,\"types\":[\"Education\"],\"relationships\":[],\"addresses\":[{\"lat\"\
+        :31.454854,\"lng\":74.299072,\"state\":null,\"state_code\":null,\"city\":\"\
+        Lahore\",\"geonames_city\":{\"id\":1172451,\"city\":\"Lahore\",\"geonames_admin1\"\
+        :{\"name\":\"Punjab\",\"id\":1167710,\"ascii_name\":\"Punjab\",\"code\":\"\
+        PK.04\"},\"geonames_admin2\":{\"name\":null,\"id\":null,\"ascii_name\":null,\"\
+        code\":null},\"license\":{\"attribution\":\"Data from geonames.org under a\
+        \ CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\"\
+        :null,\"code\":null},\"nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\"\
+        :null,\"primary\":false,\"line\":null,\"country_geonames_id\":1168579}],\"\
+        links\":[\"http://ue.edu.pk\"],\"aliases\":[],\"acronyms\":[\"UE\"],\"status\"\
+        :\"active\",\"wikipedia_url\":\"https://en.wikipedia.org/wiki/University_of_Education\"\
+        ,\"labels\":[{\"label\":\"\u06CC\u0648\u0646\u06CC\u0648\u0631\u0633\u0679\
+        \u06CC \u0622\u0641 \u0627\u06CC\u062C\u0648\u06A9\u06CC\u0634\u0646\",\"\
+        iso639\":\"ur\"}],\"country\":{\"country_name\":\"Pakistan\",\"country_code\"\
+        :\"PK\"},\"external_ids\":{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0004\
+        \ 0609 0414\"]},\"OrgRef\":{\"preferred\":null,\"all\":[\"7696954\"]},\"Wikidata\"\
+        :{\"preferred\":null,\"all\":[\"Q7895374\"]},\"GRID\":{\"preferred\":\"grid.440554.4\"\
+        ,\"all\":\"grid.440554.4\"}}},{\"id\":\"https://ror.org/03gq1d339\",\"name\"\
+        :\"University of Ngaound\xE9r\xE9\",\"email_address\":null,\"ip_addresses\"\
+        :[],\"established\":1993,\"types\":[\"Education\"],\"relationships\":[],\"\
+        addresses\":[{\"lat\":7.421948,\"lng\":13.540701,\"state\":null,\"state_code\"\
+        :null,\"city\":\"Ngaound\xE9r\xE9\",\"geonames_city\":{\"id\":2224827,\"city\"\
+        :\"Ngaound\xE9r\xE9\",\"geonames_admin1\":{\"name\":\"Adamaoua\",\"id\":2236015,\"\
+        ascii_name\":\"Adamaoua\",\"code\":\"CM.10\"},\"geonames_admin2\":{\"name\"\
+        :null,\"id\":null,\"ascii_name\":null,\"code\":null},\"license\":{\"attribution\"\
+        :\"Data from geonames.org under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\"\
+        :null,\"code\":null},\"nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\"\
+        :null,\"primary\":false,\"line\":null,\"country_geonames_id\":2233387}],\"\
+        links\":[\"http://www.univ-ndere.cm/\"],\"aliases\":[],\"acronyms\":[\"UN\"\
+        ],\"status\":\"active\",\"wikipedia_url\":\"https://en.wikipedia.org/wiki/University_of_Ngaound\xE9\
+        r\xE9\",\"labels\":[{\"label\":\"Universit\xE9 de Ngaound\xE9r\xE9\",\"iso639\"\
+        :\"fr\"}],\"country\":{\"country_name\":\"Cameroon\",\"country_code\":\"CM\"\
+        },\"external_ids\":{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0000 9169\
+        \ 7229\"]},\"OrgRef\":{\"preferred\":null,\"all\":[\"25549150\"]},\"Wikidata\"\
+        :{\"preferred\":null,\"all\":[\"Q3551655\"]},\"GRID\":{\"preferred\":\"grid.440604.2\"\
+        ,\"all\":\"grid.440604.2\"}}},{\"id\":\"https://ror.org/00yqvtm78\",\"name\"\
+        :\"University of Shahrood\",\"email_address\":null,\"ip_addresses\":[],\"\
+        established\":1973,\"types\":[\"Education\"],\"relationships\":[],\"addresses\"\
+        :[{\"lat\":36.382821,\"lng\":54.919858,\"state\":null,\"state_code\":null,\"\
+        city\":\"Shahrud\",\"geonames_city\":{\"id\":135423,\"city\":\"Shahrud\",\"\
+        geonames_admin1\":{\"name\":\"Semnan\",\"id\":116401,\"ascii_name\":\"Semnan\"\
+        ,\"code\":\"IR.25\"},\"geonames_admin2\":{\"name\":null,\"id\":null,\"ascii_name\"\
+        :null,\"code\":null},\"license\":{\"attribution\":\"Data from geonames.org\
+        \ under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\"\
+        :null,\"code\":null},\"nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\"\
+        :null,\"primary\":false,\"line\":null,\"country_geonames_id\":130758}],\"\
+        links\":[\"http://www.shahroodut.ac.ir/fa/?lng=en\"],\"aliases\":[\"Shahrood\
+        \ University of Technology\"],\"acronyms\":[],\"status\":\"active\",\"wikipedia_url\"\
+        :\"https://en.wikipedia.org/wiki/Shahrood_University_of_Technology\",\"labels\"\
+        :[{\"label\":\"\u062F\u0627\u0646\u0634\u06AF\u0627\u0647 \u0635\u0646\u0639\
+        \u062A\u06CC \u0634\u0627\u0647\u0631\u0648\u062F\",\"iso639\":\"fa\"}],\"\
+        country\":{\"country_name\":\"Iran\",\"country_code\":\"IR\"},\"external_ids\"\
+        :{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0004 0618 762X\"]},\"OrgRef\"\
+        :{\"preferred\":null,\"all\":[\"5888152\"]},\"Wikidata\":{\"preferred\":null,\"\
+        all\":[\"Q10854113\"]},\"GRID\":{\"preferred\":\"grid.440804.c\",\"all\":\"\
+        grid.440804.c\"}}},{\"id\":\"https://ror.org/01mn7k054\",\"name\":\"University\
+        \ of Lubumbashi\",\"email_address\":null,\"ip_addresses\":[],\"established\"\
+        :1955,\"types\":[\"Education\"],\"relationships\":[],\"addresses\":[{\"lat\"\
+        :-11.631232,\"lng\":27.483399,\"state\":null,\"state_code\":null,\"city\"\
+        :\"Lubumbashi\",\"geonames_city\":{\"id\":922704,\"city\":\"Lubumbashi\",\"\
+        geonames_admin1\":{\"name\":\"Haut-Katanga\",\"id\":11288213,\"ascii_name\"\
+        :\"Haut-Katanga\",\"code\":\"CD.14\"},\"geonames_admin2\":{\"name\":null,\"\
+        id\":null,\"ascii_name\":null,\"code\":null},\"license\":{\"attribution\"\
+        :\"Data from geonames.org under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\"\
+        :null,\"code\":null},\"nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\"\
+        :null,\"primary\":false,\"line\":null,\"country_geonames_id\":203312}],\"\
+        links\":[\"http://www.unilu.ac.cd/\"],\"aliases\":[\"Universit\xE9 Officielle\
+        \ du Congo et du Ruanda-Urundi\"],\"acronyms\":[\"UNILU\"],\"status\":\"active\"\
+        ,\"wikipedia_url\":\"https://en.wikipedia.org/wiki/University_of_Lubumbashi\"\
+        ,\"labels\":[{\"label\":\"Universit\xE9 de Lubumbashi\",\"iso639\":\"fr\"\
+        }],\"country\":{\"country_name\":\"Democratic Republic of the Congo\",\"country_code\"\
+        :\"CD\"},\"external_ids\":{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0001\
+        \ 0732 4647\"]},\"OrgRef\":{\"preferred\":null,\"all\":[\"7399792\"]},\"Wikidata\"\
+        :{\"preferred\":null,\"all\":[\"Q1588869\"]},\"GRID\":{\"preferred\":\"grid.440826.c\"\
+        ,\"all\":\"grid.440826.c\"}}},{\"id\":\"https://ror.org/00saanr69\",\"name\"\
+        :\"University of Sulaymaniyah\",\"email_address\":null,\"ip_addresses\":[],\"\
+        established\":1992,\"types\":[\"Education\"],\"relationships\":[],\"addresses\"\
+        :[{\"lat\":35.576417,\"lng\":45.359908,\"state\":null,\"state_code\":null,\"\
+        city\":\"Sulaymaniyah\",\"geonames_city\":{\"id\":98463,\"city\":\"As Sulaym\u0101\
+        n\u012Byah\",\"geonames_admin1\":{\"name\":\"Sulaymaniyah\",\"id\":98465,\"\
+        ascii_name\":\"Sulaymaniyah\",\"code\":\"IQ.05\"},\"geonames_admin2\":{\"\
+        name\":\"Qa\u1E11\u0101\u2019 as Sulaym\u0101n\u012Byah\",\"id\":98464,\"\
+        ascii_name\":\"Qada' as Sulaymaniyah\",\"code\":\"IQ.05.98464\"},\"license\"\
+        :{\"attribution\":\"Data from geonames.org under a CC-BY 3.0 license\",\"\
+        license\":\"http://creativecommons.org/licenses/by/3.0/\"},\"nuts_level1\"\
+        :{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\":null,\"code\":null},\"\
+        nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\":null,\"primary\"\
+        :false,\"line\":null,\"country_geonames_id\":99237}],\"links\":[\"http://univsul.edu.iq/en/\"\
+        ],\"aliases\":[],\"acronyms\":[],\"status\":\"active\",\"wikipedia_url\":\"\
+        https://en.wikipedia.org/wiki/University_of_Sulaymaniyah\",\"labels\":[{\"\
+        label\":\"\u062C\u0627\u0645\u0639\u0629 \u0627\u0644\u0633\u0644\u064A\u0645\
+        \u0627\u0646\u064A\u0629\",\"iso639\":\"ar\"}],\"country\":{\"country_name\"\
+        :\"Iraq\",\"country_code\":\"IQ\"},\"external_ids\":{\"FundRef\":{\"preferred\"\
+        :null,\"all\":[\"501100007640\"]},\"OrgRef\":{\"preferred\":null,\"all\":[\"\
+        7737728\"]},\"Wikidata\":{\"preferred\":null,\"all\":[\"Q3666593\"]},\"GRID\"\
+        :{\"preferred\":\"grid.440843.f\",\"all\":\"grid.440843.f\"}}},{\"id\":\"\
+        https://ror.org/01c3s4w91\",\"name\":\"University of Fredericton\",\"email_address\"\
+        :null,\"ip_addresses\":[],\"established\":2007,\"types\":[\"Education\"],\"\
+        relationships\":[],\"addresses\":[{\"lat\":45.963574,\"lng\":-66.643599,\"\
+        state\":\"New Brunswick\",\"state_code\":\"CA-NB\",\"city\":\"Fredericton\"\
+        ,\"geonames_city\":{\"id\":5957776,\"city\":\"Fredericton\",\"geonames_admin1\"\
+        :{\"name\":\"New Brunswick\",\"id\":6087430,\"ascii_name\":\"New Brunswick\"\
+        ,\"code\":\"CA.04\"},\"geonames_admin2\":{\"name\":null,\"id\":null,\"ascii_name\"\
+        :null,\"code\":null},\"license\":{\"attribution\":\"Data from geonames.org\
+        \ under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\"\
+        :null,\"code\":null},\"nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\"\
+        :null,\"primary\":false,\"line\":null,\"country_geonames_id\":6251999}],\"\
+        links\":[\"https://www.ufred.ca/\"],\"aliases\":[],\"acronyms\":[\"UFred\"\
+        ],\"status\":\"active\",\"wikipedia_url\":\"https://en.wikipedia.org/wiki/University_of_Fredericton\"\
+        ,\"labels\":[],\"country\":{\"country_name\":\"Canada\",\"country_code\":\"\
+        CA\"},\"external_ids\":{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0004\
+        \ 4667 2347\"]},\"OrgRef\":{\"preferred\":null,\"all\":[\"17085592\"]},\"\
+        Wikidata\":{\"preferred\":null,\"all\":[\"Q7895437\"]},\"GRID\":{\"preferred\"\
+        :\"grid.440971.f\",\"all\":\"grid.440971.f\"}}},{\"id\":\"https://ror.org/05mm1w714\"\
+        ,\"name\":\"University of Atl\xE1ntico\",\"email_address\":null,\"ip_addresses\"\
+        :[],\"established\":1941,\"types\":[\"Education\"],\"relationships\":[],\"\
+        addresses\":[{\"lat\":11.019996,\"lng\":-74.871663,\"state\":null,\"state_code\"\
+        :null,\"city\":\"Barranquilla\",\"geonames_city\":{\"id\":3689147,\"city\"\
+        :\"Barranquilla\",\"geonames_admin1\":{\"name\":\"Atl\xE1ntico\",\"id\":3689436,\"\
+        ascii_name\":\"Atlantico\",\"code\":\"CO.04\"},\"geonames_admin2\":{\"name\"\
+        :\"Barranquilla\",\"id\":3689152,\"ascii_name\":\"Barranquilla\",\"code\"\
+        :\"CO.04.08001\"},\"license\":{\"attribution\":\"Data from geonames.org under\
+        \ a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\"\
+        :null,\"code\":null},\"nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\"\
+        :null,\"primary\":false,\"line\":null,\"country_geonames_id\":3686110}],\"\
+        links\":[\"https://www.uniatlantico.edu.co/uatlantico/\"],\"aliases\":[\"\
+        Uniatl\xE1ntico\"],\"acronyms\":[\"UA\"],\"status\":\"active\",\"wikipedia_url\"\
+        :\"https://en.wikipedia.org/wiki/University_of_Atl%C3%A1ntico\",\"labels\"\
+        :[{\"label\":\"Universidad del Atl\xE1ntico\",\"iso639\":\"es\"}],\"country\"\
+        :{\"country_name\":\"Colombia\",\"country_code\":\"CO\"},\"external_ids\"\
+        :{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0001 2180 2377\"]},\"OrgRef\"\
+        :{\"preferred\":null,\"all\":[\"22364848\"]},\"Wikidata\":{\"preferred\":null,\"\
+        all\":[\"Q422166\"]},\"GRID\":{\"preferred\":\"grid.441871.f\",\"all\":\"\
+        grid.441871.f\"}}},{\"id\":\"https://ror.org/037xrmj59\",\"name\":\"University\
+        \ of Azuay\",\"email_address\":null,\"ip_addresses\":[],\"established\":1968,\"\
+        types\":[\"Education\"],\"relationships\":[],\"addresses\":[{\"lat\":-2.918921,\"\
+        lng\":-79.00085,\"state\":null,\"state_code\":null,\"city\":\"Cuenca\",\"\
+        geonames_city\":{\"id\":3658666,\"city\":\"Cuenca\",\"geonames_admin1\":{\"\
+        name\":\"Azuay\",\"id\":3660431,\"ascii_name\":\"Azuay\",\"code\":\"EC.02\"\
+        },\"geonames_admin2\":{\"name\":\"Cant\xF3n Cuenca\",\"id\":3658665,\"ascii_name\"\
+        :\"Canton Cuenca\",\"code\":\"EC.02.0101\"},\"license\":{\"attribution\":\"\
+        Data from geonames.org under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\"\
+        :null,\"code\":null},\"nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\"\
+        :null,\"primary\":false,\"line\":null,\"country_geonames_id\":3658394}],\"\
+        links\":[\"https://www.uazuay.edu.ec/\"],\"aliases\":[],\"acronyms\":[\"UDA\"\
+        ],\"status\":\"active\",\"wikipedia_url\":\"\",\"labels\":[{\"label\":\"Universidad\
+        \ del Azuay\",\"iso639\":\"es\"}],\"country\":{\"country_name\":\"Ecuador\"\
+        ,\"country_code\":\"EC\"},\"external_ids\":{\"ISNI\":{\"preferred\":null,\"\
+        all\":[\"0000 0001 1945 2902\"]},\"Wikidata\":{\"preferred\":null,\"all\"\
+        :[\"Q6156840\"]},\"GRID\":{\"preferred\":\"grid.442126.7\",\"all\":\"grid.442126.7\"\
+        }}},{\"id\":\"https://ror.org/03bm5es30\",\"name\":\"University of Dongola\"\
+        ,\"email_address\":null,\"ip_addresses\":[],\"established\":null,\"types\"\
+        :[\"Education\"],\"relationships\":[],\"addresses\":[{\"lat\":19.17505,\"\
+        lng\":30.455925,\"state\":null,\"state_code\":null,\"city\":\"Dongola\",\"\
+        geonames_city\":{\"id\":363417,\"city\":\"Dongola\",\"geonames_admin1\":{\"\
+        name\":\"Northern State\",\"id\":378389,\"ascii_name\":\"Northern State\"\
+        ,\"code\":\"SD.43\"},\"geonames_admin2\":{\"name\":null,\"id\":null,\"ascii_name\"\
+        :null,\"code\":null},\"license\":{\"attribution\":\"Data from geonames.org\
+        \ under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\"\
+        :null,\"code\":null},\"nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\"\
+        :null,\"primary\":false,\"line\":null,\"country_geonames_id\":366755}],\"\
+        links\":[\"http://www.uofd.edu.sd\"],\"aliases\":[],\"acronyms\":[\"UofD\"\
+        ],\"status\":\"active\",\"wikipedia_url\":\"https://en.wikipedia.org/wiki/University_of_Dongola\"\
+        ,\"labels\":[{\"label\":\"\u062C\u0627\u0645\u0639\u0629 \u062F\u0646\u0642\
+        \u0644\u0627\",\"iso639\":\"ar\"}],\"country\":{\"country_name\":\"Sudan\"\
+        ,\"country_code\":\"SD\"},\"external_ids\":{\"ISNI\":{\"preferred\":null,\"\
+        all\":[\"0000 0004 4908 2406\"]},\"OrgRef\":{\"preferred\":null,\"all\":[\"\
+        25780781\"]},\"Wikidata\":{\"preferred\":null,\"all\":[\"Q7895343\"]},\"GRID\"\
+        :{\"preferred\":\"grid.442380.9\",\"all\":\"grid.442380.9\"}}},{\"id\":\"\
+        https://ror.org/00vsxg936\",\"name\":\"University of Bouira\",\"email_address\"\
+        :null,\"ip_addresses\":[],\"established\":2005,\"types\":[\"Education\"],\"\
+        relationships\":[],\"addresses\":[{\"lat\":36.38207,\"lng\":3.893087,\"state\"\
+        :null,\"state_code\":null,\"city\":\"Bou\xEFra\",\"geonames_city\":{\"id\"\
+        :2502958,\"city\":\"Bou\xEFra\",\"geonames_admin1\":{\"name\":\"Bouira\",\"\
+        id\":2502951,\"ascii_name\":\"Bouira\",\"code\":\"DZ.21\"},\"geonames_admin2\"\
+        :{\"name\":null,\"id\":null,\"ascii_name\":null,\"code\":null},\"license\"\
+        :{\"attribution\":\"Data from geonames.org under a CC-BY 3.0 license\",\"\
+        license\":\"http://creativecommons.org/licenses/by/3.0/\"},\"nuts_level1\"\
+        :{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\":null,\"code\":null},\"\
+        nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\":null,\"primary\"\
+        :false,\"line\":null,\"country_geonames_id\":2589581}],\"links\":[\"http://www.univ-bouira.dz/\"\
+        ],\"aliases\":[\"Akli Mohand Oulhadj University of Bouira\"],\"acronyms\"\
+        :[],\"status\":\"active\",\"wikipedia_url\":\"https://en.wikipedia.org/wiki/University_of_Bouira\"\
+        ,\"labels\":[{\"label\":\"\u062C\u0627\u0645\u0639\u0629 \u0627\u0644\u0628\
+        \u0648\u064A\u0631\u0629\",\"iso639\":\"ar\"}],\"country\":{\"country_name\"\
+        :\"Algeria\",\"country_code\":\"DZ\"},\"external_ids\":{\"ISNI\":{\"preferred\"\
+        :null,\"all\":[\"0000 0004 4655 050X\"]},\"Wikidata\":{\"preferred\":null,\"\
+        all\":[\"Q3551448\"]},\"GRID\":{\"preferred\":\"grid.442412.5\",\"all\":\"\
+        grid.442412.5\"}}},{\"id\":\"https://ror.org/0440cy367\",\"name\":\"University\
+        \ of Liberia\",\"email_address\":null,\"ip_addresses\":[],\"established\"\
+        :1862,\"types\":[\"Education\"],\"relationships\":[],\"addresses\":[{\"lat\"\
+        :6.299372,\"lng\":-10.795202,\"state\":null,\"state_code\":null,\"city\":\"\
+        Monrovia\",\"geonames_city\":{\"id\":2274895,\"city\":\"Monrovia\",\"geonames_admin1\"\
+        :{\"name\":\"Montserrado\",\"id\":2274890,\"ascii_name\":\"Montserrado\",\"\
+        code\":\"LR.14\"},\"geonames_admin2\":{\"name\":null,\"id\":null,\"ascii_name\"\
+        :null,\"code\":null},\"license\":{\"attribution\":\"Data from geonames.org\
+        \ under a CC-BY 3.0 license\",\"license\":\"http://creativecommons.org/licenses/by/3.0/\"\
+        },\"nuts_level1\":{\"name\":null,\"code\":null},\"nuts_level2\":{\"name\"\
+        :null,\"code\":null},\"nuts_level3\":{\"name\":null,\"code\":null}},\"postcode\"\
+        :null,\"primary\":false,\"line\":null,\"country_geonames_id\":2275384}],\"\
+        links\":[\"https://ul.edu.lr/\"],\"aliases\":[\"Liberia College\"],\"acronyms\"\
+        :[\"UL\",\"LU\"],\"status\":\"active\",\"wikipedia_url\":\"https://en.wikipedia.org/wiki/University_of_Liberia\"\
+        ,\"labels\":[],\"country\":{\"country_name\":\"Liberia\",\"country_code\"\
+        :\"LR\"},\"external_ids\":{\"ISNI\":{\"preferred\":null,\"all\":[\"0000 0001\
+        \ 2286 2283\"]},\"OrgRef\":{\"preferred\":null,\"all\":[\"5182628\"]},\"Wikidata\"\
+        :{\"preferred\":null,\"all\":[\"Q3044628\"]},\"GRID\":{\"preferred\":\"grid.442519.f\"\
+        ,\"all\":\"grid.442519.f\"}}}],\"meta\":{\"types\":[{\"id\":\"education\"\
+        ,\"title\":\"Education\",\"count\":12458},{\"id\":\"facility\",\"title\":\"\
+        Facility\",\"count\":2955},{\"id\":\"government\",\"title\":\"Government\"\
+        ,\"count\":2478},{\"id\":\"nonprofit\",\"title\":\"Nonprofit\",\"count\":1960},{\"\
+        id\":\"healthcare\",\"title\":\"Healthcare\",\"count\":1790},{\"id\":\"other\"\
+        ,\"title\":\"Other\",\"count\":1576},{\"id\":\"archive\",\"title\":\"Archive\"\
+        ,\"count\":651},{\"id\":\"company\",\"title\":\"Company\",\"count\":283}],\"\
+        countries\":[{\"id\":\"us\",\"title\":\"United States of America\",\"count\"\
+        :5047},{\"id\":\"cn\",\"title\":\"People's Republic of China\",\"count\":2269},{\"\
+        id\":\"ru\",\"title\":\"Russian Federation\",\"count\":1539},{\"id\":\"jp\"\
+        ,\"title\":\"Japan\",\"count\":1295},{\"id\":\"in\",\"title\":\"Republic of\
+        \ India\",\"count\":1282},{\"id\":\"gb\",\"title\":\"United Kingdom of Great\
+        \ Britain and Northern Ireland\",\"count\":804},{\"id\":\"kr\",\"title\":\"\
+        Korea, Republic of\",\"count\":695},{\"id\":\"de\",\"title\":\"Federal Republic\
+        \ of Germany\",\"count\":567},{\"id\":\"ca\",\"title\":\"Canada\",\"count\"\
+        :529},{\"id\":\"fr\",\"title\":\"French Republic\",\"count\":447}]}}"
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '28707'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 05 Dec 2021 00:11:52 GMT
+      Server:
+      - nginx/1.18.0 + Phusion Passenger(R) 6.0.10
+      Status:
+      - 200 OK
+      Vary:
+      - Cookie, Origin
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - Phusion Passenger(R) 6.0.10
+    status:
+      code: 200
+      message: OK
+version: 1

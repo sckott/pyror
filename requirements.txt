@@ -1,0 +1,8 @@
+sphinxcontrib-issuetracker
+click
+requests
+pytest
+pytest-cov
+pytest-recording
+codecov
+vcrpy

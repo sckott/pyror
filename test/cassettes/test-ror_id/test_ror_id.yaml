@@ -1,0 +1,46 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://api.ror.org/organizations/026tem613
+  response:
+    body:
+      string: '{"id":"https://ror.org/026tem613","name":"Lyrasis","email_address":null,"ip_addresses":[],"established":2009,"types":["Archive"],"relationships":[],"addresses":[{"lat":33.793961,"lng":-84.388005,"state":"Georgia","state_code":"US-GA","city":"Atlanta","geonames_city":{"id":4180439,"city":"Atlanta","geonames_admin1":{"name":"Georgia","id":4197000,"ascii_name":"Georgia","code":"US.GA"},"geonames_admin2":{"name":"Fulton
+        County","id":4196508,"ascii_name":"Fulton County","code":"US.GA.121"},"license":{"attribution":"Data
+        from geonames.org under a CC-BY 3.0 license","license":"http://creativecommons.org/licenses/by/3.0/"},"nuts_level1":{"name":null,"code":null},"nuts_level2":{"name":null,"code":null},"nuts_level3":{"name":null,"code":null}},"postcode":null,"primary":false,"line":null,"country_geonames_id":6252001}],"links":["https://www.lyrasis.org/Pages/Main.aspx"],"aliases":[],"acronyms":[],"status":"active","wikipedia_url":"https://en.wikipedia.org/wiki/Lyrasis","labels":[],"country":{"country_name":"United
+        States","country_code":"US"},"external_ids":{"ISNI":{"preferred":null,"all":["0000
+        0001 1544 1915"]},"Wikidata":{"preferred":null,"all":["Q6709869"]},"GRID":{"preferred":"grid.446619.8","all":"grid.446619.8"}}}'
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1229'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 05 Dec 2021 00:11:10 GMT
+      Server:
+      - nginx/1.18.0 + Phusion Passenger(R) 6.0.10
+      Status:
+      - 200 OK
+      Vary:
+      - Cookie, Origin
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - Phusion Passenger(R) 6.0.10
+    status:
+      code: 200
+      message: OK
+version: 1

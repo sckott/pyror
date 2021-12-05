@@ -7,5 +7,5 @@ __version__ = "0.1.0"
 __author__ = "Scott Chamberlain"
 __license__ = "MIT"
 
-from .ror import fetch_id
+from .ror import ror_search, ror_match, ror_id
 from .scripts import ror
