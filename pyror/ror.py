@@ -18,6 +18,7 @@ def ror_id(ror):
     w = ror_get(ror=ror)
     return w
 
+
 def ror_search(name=None, affiliation=None, filter=None, page=None):
     """
     Search ROR
