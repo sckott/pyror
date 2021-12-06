@@ -13,13 +13,12 @@
 import sys
 import os
 import shlex
+import pyror
+import sphinx_rtd_theme
 
 sys.path.insert(0, os.path.abspath(".."))
 
-import pyror
-
 # -- Project information -----------------------------------------------------
-
 project = 'pyror'
 copyright = '2021, Scott Chamberlain'
 author = 'Scott Chamberlain'
@@ -37,6 +36,7 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.doctest",
     "sphinx.ext.inheritance_diagram",
+    "sphinx_rtd_theme",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
