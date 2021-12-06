@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pyror module &mdash; pyror 0.1.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Changelog" href="changelog_link.html" />
+    <link rel="prev" title="Installation guide" href="intro/install.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> pyror
+          </a>
+              <div class="version">
+                0.1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Installation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="intro/install.html">Installation guide</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Methods</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">pyror module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-pyror.ror">pyror methods</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">All the rest</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="changelog_link.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conduct.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">LICENSE</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">pyror</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>pyror module</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/pyror.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="pyror-module">
+<h1>pyror module<a class="headerlink" href="#pyror-module" title="Permalink to this headline"></a></h1>
+<p>crossref module API:</p>
+<ul class="simple">
+<li><p><cite>ror_id</cite></p></li>
+<li><p><cite>ror_search</cite></p></li>
+<li><p><cite>ror_match</cite></p></li>
+</ul>
+<p>Example usage:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pyror</span>
+<span class="kn">from</span> <span class="nn">pyror</span> <span class="kn">import</span> <span class="n">ror_id</span>
+<span class="n">ror_id</span><span class="p">(</span><span class="s1">&#39;026tem613&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<section id="module-pyror.ror">
+<span id="pyror-methods"></span><h2>pyror methods<a class="headerlink" href="#module-pyror.ror" title="Permalink to this headline"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="pyror.ror.ror_id">
+<span class="sig-prename descclassname"><span class="pre">pyror.ror.</span></span><span class="sig-name descname"><span class="pre">ror_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ror</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyror/ror.html#ror_id"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyror.ror.ror_id" title="Permalink to this definition"></a></dt>
+<dd><p>Get data by ROR ID</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ror</strong> – [String] A ROR ID</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>a dictionary</p>
+</dd>
+</dl>
+<p>Usage:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pyror</span> <span class="kn">import</span> <span class="n">ror_id</span>
+<span class="n">ror_id</span><span class="p">(</span><span class="s1">&#39;026tem613&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="pyror.ror.ror_match">
+<span class="sig-prename descclassname"><span class="pre">pyror.ror.</span></span><span class="sig-name descname"><span class="pre">ror_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">affiliation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyror/ror.html#ror_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyror.ror.ror_match" title="Permalink to this definition"></a></dt>
+<dd><p>Search for a ROR ID, and try to extract an exact match</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> – [String] An institution name</p></li>
+<li><p><strong>affiliation</strong> – [String] An institution name</p></li>
+<li><p><strong>filter</strong> – [String] An institution name</p></li>
+<li><p><strong>page</strong> – [String] returns a max of 20 results/page, beginning at page 1.
+by dafault this parameter isn’t passed</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>dict or list of dicts with a subset of fields
+(id, name, links, grid_id)</p>
+</dd>
+</dl>
+<p>Usage:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pyror</span> <span class="kn">import</span> <span class="n">ror_match</span>
+<span class="n">ror_match</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;University of Greenwich&#39;</span><span class="p">)</span>
+<span class="n">ror_match</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;University of Green&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="pyror.ror.ror_search">
+<span class="sig-prename descclassname"><span class="pre">pyror.ror.</span></span><span class="sig-name descname"><span class="pre">ror_search</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">affiliation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyror/ror.html#ror_search"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyror.ror.ror_search" title="Permalink to this definition"></a></dt>
+<dd><p>Search ROR</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> – [String] An institution name</p></li>
+<li><p><strong>affiliation</strong> – [String] An affiliation name</p></li>
+<li><p><strong>filter</strong> – [String] filter by: type, country code or country name.
+types: ‘Education’, ‘Healthcare’, ‘Company’, ‘Archive’, ‘Nonprofit’,
+‘Government’, ‘Facility’, ‘Other’. country codes are those in the ISO 3166 alpha-2 list</p></li>
+<li><p><strong>page</strong> – [String] returns a max of 20 results/page, beginning at page 1.
+by dafault this parameter isn’t passed</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>a dictionary</p>
+</dd>
+</dl>
+<p>Usage:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pyror</span> <span class="kn">import</span> <span class="n">ror_search</span>
+<span class="n">ror_search</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;University of Greenwich&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="intro/install.html" class="btn btn-neutral float-left" title="Installation guide" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="changelog_link.html" class="btn btn-neutral float-right" title="Changelog" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Scott Chamberlain.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
