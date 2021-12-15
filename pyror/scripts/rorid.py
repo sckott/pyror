@@ -5,7 +5,12 @@ from pyror import ror_match
 @click.command()
 @click.option("--name", help="university name")
 def ror(name):
-    """Get a ROR ID (as a URI) from an institution name"""
+    """Get a ROR ID (as a URI) from an institution name
+    
+    Search for ror id's by an institution's name
+    
+    ror --name 'University of California, Berkeley'
+    """
     res = ror_match(name=name)
     click.echo(click.style(f"institution searched: {name}", fg="green"))
     if isinstance(res, dict):

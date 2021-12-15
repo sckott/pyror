@@ -32,7 +32,7 @@ Installation
     How to install pyror.
 
 
-Methods
+Modules
 =======
 
 .. toctree::
@@ -40,10 +40,13 @@ Methods
    :hidden:
 
    pyror
+   ror
 
 :doc:`pyror`
     The pyror module
 
+:doc:`ror`
+    The ror command line script
 
 All the rest
 ============

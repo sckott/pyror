@@ -37,6 +37,7 @@ extensions = [
     "sphinx.ext.doctest",
     "sphinx.ext.inheritance_diagram",
     "sphinx_rtd_theme",
+    "sphinx_click",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
