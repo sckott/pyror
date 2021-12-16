@@ -2,7 +2,7 @@
 pyror |version| documentation
 ================================
 
-|docs| |ghactions| |black|
+|ghactions| |black|
 
 A client for ROR's API
 
@@ -78,10 +78,6 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
-
-.. |docs| image:: https://readthedocs.org/projects/pyror/badge/?version=latest
-   :target: http://pyror.rtfd.org/
 
 .. |ghactions| image:: https://github.com/sckott/pyror/workflows/Python/badge.svg
    :target: https://github.com/sckott/pyror/actions?query=workflow%3APython
