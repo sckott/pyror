@@ -1,7 +1,7 @@
 pyror
 ========
 
-|docs| |ghactions| |black|
+|ghactions| |black|
 
 A client for ROR's API
 
@@ -25,21 +25,13 @@ Dev version
 Usage
 =====
 
-Initialize a client
-
-.. code-block:: python
-
-    from pyror import ror_id
-    ror_id('026tem613')
+See the `pyror docs <https://sckott.github.io/pyror/>`__
 
 Meta
 ====
 
 * Please note that this project is released with a `Contributor Code of Conduct <https://github.com/sckott/pyror/blob/master/CODE_OF_CONDUCT.md>`__. By participating in this project you agree to abide by its terms.
 * License: MIT; see `LICENSE file <https://github.com/sckott/pyror/blob/master/LICENSE>`__
-
-.. |docs| image:: https://readthedocs.org/projects/pyror/badge/?version=latest
-   :target: http://pyror.rtfd.org/
 
 .. |ghactions| image:: https://github.com/sckott/pyror/workflows/Python/badge.svg
    :target: https://github.com/sckott/pyror/actions?query=workflow%3APython
