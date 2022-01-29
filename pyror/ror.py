@@ -44,7 +44,9 @@ def ror_search(name=None, affiliation=None, filter=None, page=None):
 
 def ror_match(name=None, affiliation=None, filter=None, page=None):
     """
-    Search for a ROR ID, and try to extract an exact match
+    Search for a ROR ID, and try to extract an exact match. 
+
+    If an exact match is not found, the function returns all results.
 
     :param name: [String] An institution name
     :param affiliation: [String] An institution name
@@ -53,7 +55,7 @@ def ror_match(name=None, affiliation=None, filter=None, page=None):
         by dafault this parameter isn't passed
 
     :return: dict or list of dicts with a subset of fields
-        (id, name, links, grid_id)
+        (id, name, grid_id, link)
 
     Usage::
 
