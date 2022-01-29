@@ -126,7 +126,9 @@
 
 <div class="viewcode-block" id="ror_match"><a class="viewcode-back" href="../../pyror.html#pyror.ror.ror_match">[docs]</a><span class="k">def</span> <span class="nf">ror_match</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">affiliation</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="nb">filter</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">page</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Search for a ROR ID, and try to extract an exact match</span>
+<span class="sd">    Search for a ROR ID, and try to extract an exact match. </span>
+
+<span class="sd">    If an exact match is not found, the function returns all results.</span>
 
 <span class="sd">    :param name: [String] An institution name</span>
 <span class="sd">    :param affiliation: [String] An institution name</span>
@@ -135,7 +137,7 @@
 <span class="sd">        by dafault this parameter isn&#39;t passed</span>
 
 <span class="sd">    :return: dict or list of dicts with a subset of fields</span>
-<span class="sd">        (id, name, links, grid_id)</span>
+<span class="sd">        (id, name, grid_id, link)</span>
 
 <span class="sd">    Usage::</span>
 
@@ -161,7 +163,7 @@
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2021, Scott Chamberlain.</p>
+    <p>&#169; Copyright 2022, Scott Chamberlain.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a

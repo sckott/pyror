@@ -123,7 +123,8 @@
 <dl class="py function">
 <dt class="sig sig-object py" id="pyror.ror.ror_match">
 <span class="sig-prename descclassname"><span class="pre">pyror.ror.</span></span><span class="sig-name descname"><span class="pre">ror_match</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">affiliation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pyror/ror.html#ror_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pyror.ror.ror_match" title="Permalink to this definition"></a></dt>
-<dd><p>Search for a ROR ID, and try to extract an exact match</p>
+<dd><p>Search for a ROR ID, and try to extract an exact match.</p>
+<p>If an exact match is not found, the function returns all results.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -136,7 +137,7 @@ by dafault this parameter isn’t passed</p></li>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p>dict or list of dicts with a subset of fields
-(id, name, links, grid_id)</p>
+(id, name, grid_id, link)</p>
 </dd>
 </dl>
 <p>Usage:</p>
@@ -188,7 +189,7 @@ by dafault this parameter isn’t passed</p></li>
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2021, Scott Chamberlain.</p>
+    <p>&#169; Copyright 2022, Scott Chamberlain.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
