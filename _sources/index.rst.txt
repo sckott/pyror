@@ -4,7 +4,9 @@ pyror |version| documentation
 
 |ghactions| |black|
 
-A client for ROR's API
+A client for Research Organization Registry's (ROR) API
+
+`ROR <https://ror.org/>`__
 
 `ROR API docs <https://ror.readme.io/docs/rest-api>`__
 
