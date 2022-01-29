@@ -7,11 +7,11 @@ Installation guide
 Installing pyror
 ===================
 
-Stable from pypi
+Stable from PyPi
 
 .. code-block:: console
 
-    pip (or pip3) install pyror
+    pip install pyror
 
 Development version
 

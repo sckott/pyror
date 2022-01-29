@@ -10,11 +10,19 @@ A client for ROR's API
 Installation
 ============
 
+From PyPi
+
+
+.. code-block:: console
+
+    pip install pyror
+
+
 Dev version
 
 .. code-block:: console
 
-    pip (or pip3) install git+git://github.com/sckott/pyror.git#egg=pyror
+    pip install git+git://github.com/sckott/pyror.git#egg=pyror
 
     # OR
 
