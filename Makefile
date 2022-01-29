@@ -2,11 +2,8 @@ all: build install
 
 .PHONY: build install test docs distclean dist upload
 
-build:
-	python3 setup.py build
-
-install: build
-	python3 setup.py install
+install:
+	pip install .
 
 test:
 # 	pytest test/
@@ -27,11 +24,7 @@ distclean:
 	rm dist/*
 
 dist:
-	python3 setup.py sdist
-	python3 setup.py bdist_wheel --universal
-
-register:
-	python3 setup.py register
+	python3 -m build --sdist --wheel
 
 upload_test:
 	python3 -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
