@@ -20,8 +20,8 @@ docs:
 opendocs:
 	open docs/_build/html/index.html
 
-distclean:
-	rm dist/*
+clean:
+	rm -rf dist/* build/*
 
 dist:
 	python3 -m build --sdist --wheel
