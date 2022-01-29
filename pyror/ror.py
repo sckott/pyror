@@ -44,7 +44,7 @@ def ror_search(name=None, affiliation=None, filter=None, page=None):
 
 def ror_match(name=None, affiliation=None, filter=None, page=None):
     """
-    Search for a ROR ID, and try to extract an exact match. 
+    Search for a ROR ID, and try to extract an exact match.
 
     If an exact match is not found, the function returns all results.
 
